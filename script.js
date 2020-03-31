@@ -1,17 +1,35 @@
-const money = prompt("Ваш бюджет на месяц?", "");
-// не совсем понял, зачем тут дата в таком формате.
-const time = prompt("Введите дату в формате YYYY-MM-DD", "");
-const oneDayMoney = money / 30;
 
-let appData  = {
-    moneyData: money,
-    timeData: time,
-    expenses: {},
-    income: []
-};
+let num = 50;
 
-const expensesName = prompt("Введите обязательную статью расх    одов в этом месяце","");
-const expensesNum = prompt("Во сколько обойдется?", "");
-appData.expenses[expensesName] = expensesNum;
+switch (num) {
+    case num < 51:
+        console.log('net');
+        break;
+    case 50:
+        console.log('da');
+        break;
+    default: 
+        console.log('all end');
+        break;
+}
 
-alert(oneDayMoney);
+
+// while (num < 55) {
+//     console.log(num);
+//     num++
+// }
+
+// do {
+//     console.log(num);
+//     num++
+// }
+// while (num < 55) {
+//     console.log(num);
+// }
+
+for (let i = 1; i < 8; i++) {
+    if (i === 6) {
+        continue;
+    }
+    console.log(i)
+}
