@@ -61,9 +61,11 @@ startBtn.addEventListener('click', function () {
     appData.budget = money;
     appData.timeData = time;
     budgetValue.textContent = money.toFixed();
-    yearValue.value = new Date(Date.parse(time)).getFullYear();
-    monthValue.value = new Date(Date.parse(time)).getMonth() + 1;
-    dayValue.value = new Date(Date.parse(time)).getDate();
+    if (time) {
+        yearValue.value = new Date(Date.parse(time)).getFullYear();
+        monthValue.value = new Date(Date.parse(time)).getMonth() + 1;
+        dayValue.value = new Date(Date.parse(time)).getDate();
+    }
 });
 
 btnExpense.addEventListener('click', function () {

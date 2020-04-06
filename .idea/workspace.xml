@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task8/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+            <state relative-caret-position="270">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -64,7 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>yearValue</find>
       <find>expenses-item</find>
       <find>expensesItem</find>
       <find>expensesValue</find>
@@ -94,6 +93,7 @@
       <find>checkEmptyPrompt</find>
       <find>day</find>
       <find>dayBudgetValue</find>
+      <find>yearSavingsValue</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -242,7 +242,7 @@
       <workItem from="1585651423928" duration="7510000" />
       <workItem from="1585730501475" duration="2663000" />
       <workItem from="1585749797023" duration="4511000" />
-      <workItem from="1585819143847" duration="24406000" />
+      <workItem from="1585819143847" duration="24974000" />
     </task>
     <task id="LOCAL-00001" summary="task2 add">
       <created>1585659122831</created>
@@ -293,11 +293,25 @@
       <option name="project" value="LOCAL" />
       <updated>1586186681357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="task8 add">
+      <created>1586186878866</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586186878866</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task8 add">
+      <created>1586187256376</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586187256376</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39090000" />
+    <option name="totallyTimeSpent" value="39658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task8/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+        <state relative-caret-position="270">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
         </state>
       </provider>
     </entry>
