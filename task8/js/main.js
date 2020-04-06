@@ -124,8 +124,8 @@ sumValue.addEventListener('input', function () {
     if (appData.savings === true) {
         let sum = +sumValue.value,
             percent = +percentValue.value;
-        appData.yarIncome = sum/100/12*percent;
-        appData.monthIncome = sum/100*percent;
+        appData.monthIncome = sum/100/12*percent;
+        appData.yarIncome = sum/100*percent;
 
         monthSavingsValue.textContent = appData.monthIncome.toFixed(1);
         yearSavingsValue.textContent = appData.yarIncome.toFixed(1);
@@ -136,9 +136,8 @@ percentValue.addEventListener('input', function () {
     if (appData.savings === true) {
         let sum = +sumValue.value,
             percent = +percentValue.value;
-        appData.yarIncome = sum/100/12*percent;
-        appData.monthIncome = sum/100*percent;
-
+        appData.monthIncome = sum/100/12*percent;
+        appData.yarIncome = sum/100*percent;
         monthSavingsValue.textContent = appData.monthIncome.toFixed(1);
         yearSavingsValue.textContent = appData.yarIncome.toFixed(1);
     }
