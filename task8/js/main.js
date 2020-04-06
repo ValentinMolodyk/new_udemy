@@ -77,7 +77,7 @@ btnExpense.addEventListener('click', function () {
             sum += +b;
         }
     }
-    appData.sumExpensess = sum;
+    appData.sumExpensess = +sum;
     expensesValue.textContent = sum ? sum : 'Введите обязательные расходы';
 });
 
