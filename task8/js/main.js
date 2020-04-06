@@ -96,7 +96,8 @@ btnCount.addEventListener('click', function () {
     if (!appData.budget) {
         return;
     }
-    appData.momeyPerDay = ((appData.budget - appData.sumExpensess) / 30).toFixed();
+
+    appData.momeyPerDay = ((appData.budget - appData.sumExpensess || 0) / 30).toFixed();
     dayBudgetValue.textContent = appData.momeyPerDay;
 
     if (appData.momeyPerDay < 100) {

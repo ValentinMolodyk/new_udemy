@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee27c7db-1ac1-472b-b388-66cb8cec3fcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task7/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task7/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/task7/sass/_variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/task7/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task8/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/task8/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,19 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task7/js/main.js">
+        <entry file="file://$PROJECT_DIR$/task8/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="368">
+              <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task7/index.html">
+        <entry file="file://$PROJECT_DIR$/task8/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="44" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="44" />
+            <state relative-caret-position="105">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -125,6 +120,7 @@
         <option value="$PROJECT_DIR$/src/sass/style.sass" />
         <option value="$PROJECT_DIR$/task7/index.html" />
         <option value="$PROJECT_DIR$/task7/js/main.js" />
+        <option value="$PROJECT_DIR$/task8/js/main.js" />
       </list>
     </option>
   </component>
@@ -156,13 +152,25 @@
             <path>
               <item name="udemy_new" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy_new" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="udemy_new" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy_new" type="462c0819:PsiDirectoryNode" />
-              <item name="task7" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy_new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy_new" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy_new" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy_new" type="462c0819:PsiDirectoryNode" />
+              <item name="task8" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +242,7 @@
       <workItem from="1585651423928" duration="7510000" />
       <workItem from="1585730501475" duration="2663000" />
       <workItem from="1585749797023" duration="4511000" />
-      <workItem from="1585819143847" duration="24002000" />
+      <workItem from="1585819143847" duration="24406000" />
     </task>
     <task id="LOCAL-00001" summary="task2 add">
       <created>1585659122831</created>
@@ -271,11 +279,25 @@
       <option name="project" value="LOCAL" />
       <updated>1585998591638</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task8 add">
+      <created>1586186125114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586186125114</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task8 add">
+      <created>1586186681357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586186681357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38686000" />
+    <option name="totallyTimeSpent" value="39090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +343,8 @@
     <MESSAGE value="task4 add" />
     <MESSAGE value="task6 add" />
     <MESSAGE value="task7 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="task7 add" />
+    <MESSAGE value="task8 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="task8 add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task2/script.js" />
@@ -435,17 +458,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task7/index.html">
+    <entry file="file://$PROJECT_DIR$/task8/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task7/js/main.js">
+    <entry file="file://$PROJECT_DIR$/task8/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="97" column="5" lean-forward="true" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+        <state relative-caret-position="368">
+          <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
         </state>
       </provider>
     </entry>
