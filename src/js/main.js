@@ -1,4 +1,4 @@
-// data container
+
 const dataWrpper = document.getElementsByClassName('data')[0];
 //
 
@@ -15,10 +15,7 @@ const yearsavings = document.getElementsByClassName('yearsavings-value')[0];
 //
 
 // expenses-item
-const expensesOne = document.getElementsByClassName('expenses-item')[0];
-const expensesTwo = document.getElementsByClassName('expenses-item')[1];
-const expensesThree = document.getElementsByClassName('expenses-item')[2];
-const expensesFour = document.getElementsByClassName('expenses-item')[3];
+const expensesOne = document.getElementsByClassName('expenses-item');
 //
 
 // buttons
