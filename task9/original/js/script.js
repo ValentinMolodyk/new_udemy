@@ -38,5 +38,52 @@ window.addEventListener('DOMContentLoaded', function () {
            }
         }
     });
+    // timer
+
+    let deadLine = '2020-4-14';
+
+    function getTimeRemianing(endTime) {
+        let t = Date.parse(endTime) - Date.parse(new Date()),
+            seconds = Math.floor((t/1000) % 60),
+            minutes = Math.floor((t/1000/60) % 60),
+            hours = Math.floor((t/(1000*60*60)));
+        return {
+            'total': t,
+            'hours': hours,
+            'minutes': minutes,
+            'seconds' : seconds
+        }
+    }
+
+    function setClock(id, endTime) {
+        let timer = document.getElementById(id),
+            hours = timer.querySelector('.hours'),
+            minutes = timer.querySelector('.minutes'),
+            seconds = timer.querySelector('.seconds'),
+            timerInterval = setInterval(updateClock, 1000);
+
+        function getTimeFromat(objKey) {
+            let time = getTimeRemianing(endTime);
+            if (time.total <= 0) {objKey = '00';
+                return objKey
+            }
+            if (objKey < 10) {
+                return '0' + objKey;
+            }
+            return objKey;
+        }
+        function updateClock() {
+            let t = getTimeRemianing(endTime);
+            hours.textContent = getTimeFromat(t.hours);
+            minutes.textContent = getTimeFromat(t.minutes);
+            seconds.textContent = getTimeFromat(t.seconds);
+            if (t.total <= 0) {
+                clearInterval(timerInterval)
+            }
+        }
+    }
+    setClock('timer', deadLine);
 });
+
+
 
