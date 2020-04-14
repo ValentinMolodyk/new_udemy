@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee27c7db-1ac1-472b-b388-66cb8cec3fcf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/task9/original/js/input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task9/original/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task9/original/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task9/original/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/task9/original/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task9/original/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="226">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
         </entry>
@@ -55,7 +57,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task9/original/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1318" />
+            <state relative-caret-position="526">
+              <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task9/original/js/input.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -80,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="6" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="345">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -98,11 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>expensesValue</find>
-      <find>optionalExpensesValue</find>
-      <find>btnExpenseOptionl</find>
-      <find>btnStart</find>
-      <find>money</find>
       <find>style</find>
       <find>daybudget</find>
       <find>count</find>
@@ -128,6 +136,11 @@
       <find>yearSavingsValue</find>
       <find>getTimeRemianing</find>
       <find>deadLine</find>
+      <find>more</find>
+      <find>popup-close</find>
+      <find>input</find>
+      <find>age</find>
+      <find>timerInterval</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -155,6 +168,8 @@
         <option value="$PROJECT_DIR$/task7/index.html" />
         <option value="$PROJECT_DIR$/task7/js/main.js" />
         <option value="$PROJECT_DIR$/task8/js/main.js" />
+        <option value="$PROJECT_DIR$/task9/original/index.html" />
+        <option value="$PROJECT_DIR$/task9/original/js/input.js" />
         <option value="$PROJECT_DIR$/task9/original/js/script.js" />
       </list>
     </option>
@@ -269,7 +284,7 @@
       <workItem from="1585749797023" duration="4511000" />
       <workItem from="1585819143847" duration="26021000" />
       <workItem from="1586339374085" duration="867000" />
-      <workItem from="1586777029105" duration="6251000" />
+      <workItem from="1586777029105" duration="8329000" />
     </task>
     <task id="LOCAL-00001" summary="task2 add">
       <created>1585659122831</created>
@@ -348,11 +363,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586339389229</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="task10 add">
+      <created>1586789183604</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1586789183604</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47823000" />
+    <option name="totallyTimeSpent" value="49901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +422,8 @@
     <MESSAGE value="task7 add" />
     <MESSAGE value="task8 add" />
     <MESSAGE value="task9 add" />
-    <option name="LAST_COMMIT_MESSAGE" value="task9 add" />
+    <MESSAGE value="task10 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="task10 add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/task2/script.js" />
@@ -517,20 +540,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="345">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task9/original/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1318" />
+        <state relative-caret-position="526">
+          <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task9/original/js/input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task9/original/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="226">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>

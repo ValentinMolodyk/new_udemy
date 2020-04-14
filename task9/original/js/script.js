@@ -83,6 +83,32 @@ window.addEventListener('DOMContentLoaded', function () {
         }
     }
     setClock('timer', deadLine);
+    // modal
+
+    let moreBtn = document.querySelector('.more');
+    let closeBtn = document.querySelector('.popup-close');
+    let overlay = document.querySelector('.overlay');
+
+    function hideOverLay() {
+        overlay.style.display = 'none';
+        moreBtn.classList.remove('more-splash');
+        document.body.style.overflow = '';
+    }
+
+    moreBtn.addEventListener('click', function () {
+        overlay.style.display = 'block';
+        this.classList.add('more-splash');
+        document.body.style.overflow = 'hidden';
+    });
+    closeBtn.addEventListener('click', function () {
+        hideOverLay();
+    });
+    overlay.addEventListener('click', function (event) {
+        if (moreBtn.classList.contains('more-splash') && event.target === overlay) {
+            hideOverLay();
+        }
+    })
+
 });
 
 
