@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee27c7db-1ac1-472b-b388-66cb8cec3fcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task9/original/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task9/original/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task9/original/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task9/original/js/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/task9/original/js/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task9/original/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/task9/original/js/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,15 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task4/js.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" selection-end-line="90" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,8 +40,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task9/original/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+            <state relative-caret-position="1485">
+              <caret line="99" column="46" lean-forward="true" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task9/original/js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -54,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task9/original/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
+            <state relative-caret-position="210">
+              <caret line="210" column="33" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -64,12 +68,15 @@
         <entry file="file://$PROJECT_DIR$/task9/original/js/input.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -100,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -117,18 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>style</find>
-      <find>daybudget</find>
-      <find>count</find>
-      <find>btnCount</find>
-      <find>detectDayBudget</find>
-      <find>items</find>
-      <find>chooseIncome</find>
-      <find>monthIncome</find>
-      <find>summValue</find>
-      <find>percentValue</find>
-      <find>sumValue</find>
-      <find>optionalexpenses</find>
       <find>disabled</find>
       <find>choose-income</find>
       <find>querySelector</find>
@@ -147,6 +142,18 @@
       <find>input</find>
       <find>age</find>
       <find>timerInterval</find>
+      <find>getTimeFromat</find>
+      <find>objKey</find>
+      <find>hideOverLay</find>
+      <find>setInterval</find>
+      <find>getTimeRemaining</find>
+      <find>getTimeFormat</find>
+      <find>updateClock</find>
+      <find>setClock</find>
+      <find>showTabContent</find>
+      <find>hideTabContent</find>
+      <find>option</find>
+      <find>options-container</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -173,10 +180,12 @@
         <option value="$PROJECT_DIR$/task7/index.html" />
         <option value="$PROJECT_DIR$/task7/js/main.js" />
         <option value="$PROJECT_DIR$/task8/js/main.js" />
-        <option value="$PROJECT_DIR$/task9/original/index.html" />
-        <option value="$PROJECT_DIR$/task9/original/js/input.js" />
-        <option value="$PROJECT_DIR$/task9/original/js/script.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/task9/original/js/input.js" />
+        <option value="$PROJECT_DIR$/task9/original/js/scriptES6.js" />
+        <option value="$PROJECT_DIR$/task9/original/js/script.js" />
+        <option value="$PROJECT_DIR$/task9/original/index.html" />
+        <option value="$PROJECT_DIR$/task9/original/js/custom.js" />
       </list>
     </option>
   </component>
@@ -228,7 +237,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/task9/original/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -239,14 +248,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/lession1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task9/original/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/task2" />
       <recent name="$PROJECT_DIR$/task1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lession1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,7 +300,8 @@
       <workItem from="1585749797023" duration="4511000" />
       <workItem from="1585819143847" duration="26021000" />
       <workItem from="1586339374085" duration="867000" />
-      <workItem from="1586777029105" duration="8465000" />
+      <workItem from="1586777029105" duration="8675000" />
+      <workItem from="1586951558087" duration="3950000" />
     </task>
     <task id="LOCAL-00001" summary="task2 add">
       <created>1585659122831</created>
@@ -390,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586858811221</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="task11 add">
+      <created>1586858847807</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586858847807</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50037000" />
+    <option name="totallyTimeSpent" value="54197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,6 +556,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task8/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -555,35 +580,38 @@
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/original/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="233" column="28" selection-start-line="233" selection-start-column="28" selection-end-line="233" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task9/original/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task9/original/js/input.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/task9/original/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="1485">
+          <caret line="99" column="46" lean-forward="true" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task9/original/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="210" column="33" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task9/original/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
