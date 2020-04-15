@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded',  () => {
+window.addEventListener('DOMContentLoaded', () => {
     'use strict';
     // Определение нужных ссыллок
     const info = document.querySelector('.info');
@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded',  () => {
     const tabContent = document.querySelectorAll('.info-tabcontent');
 
     const hideTabContent = (a) => { // где (a) стратовый номер итератора
-        for(let i = a; i < tabContent.length; i++) { // Автоматизируем количество итераций
+        for (let i = a; i < tabContent.length; i++) { // Автоматизируем количество итераций
             // убираем/добавляем классы для нужных DOMElement, где [i] = индекску сооттвествующему tab[i]
             tabContent[i].classList.remove('show');
             tabContent[i].classList.add('hide');
@@ -23,16 +23,16 @@ window.addEventListener('DOMContentLoaded',  () => {
 
     hideTabContent(1); // Прячем все tabContent, так же пряем все при лоаде страницы с кроме первого.
 
-    info.addEventListener('click',  (event) => { // обработчик события на основном контейнере
+    info.addEventListener('click', (event) => { // обработчик события на основном контейнере
         const target = event.target; // определяем target внутри
-        if(target && target.classList.contains('info-header-tab')) { // сраниваем target клика c нужным елементом
-           for (let i = 0; i < tab.length; i++) {
-               if (target === tab[i]) { // сравниваем  target с текущим индексом таба и передаем ее в функцию showTabContent
-                   hideTabContent(0); // предварительно спрятав все tabContent
-                   showTabContent(i); // показываем текузий tabContent
-                   break;
-               }
-           }
+        if (target && target.classList.contains('info-header-tab')) { // сраниваем target клика c нужным елементом
+            for (let i = 0; i < tab.length; i++) {
+                if (target === tab[i]) { // сравниваем  target с текущим индексом таба и передаем ее в функцию showTabContent
+                    hideTabContent(0); // предварительно спрятав все tabContent
+                    showTabContent(i); // показываем текузий tabContent
+                    break;
+                }
+            }
         }
     });
 
@@ -41,14 +41,14 @@ window.addEventListener('DOMContentLoaded',  () => {
 
     const getTimeRemaining = (endTime) => {
         const t = Date.parse(endTime) - Date.parse(new Date()),
-            seconds = Math.floor((t/1000) % 60),
-            minutes = Math.floor((t/1000/60) % 60),
-            hours = Math.floor((t/(1000*60*60)));
+            seconds = Math.floor((t / 1000) % 60),
+            minutes = Math.floor((t / 1000 / 60) % 60),
+            hours = Math.floor((t / (1000 * 60 * 60)));
         return {
             'total': t,
             'hours': hours,
             'minutes': minutes,
-            'seconds' : seconds
+            'seconds': seconds
         }
     };
 
@@ -61,7 +61,8 @@ window.addEventListener('DOMContentLoaded',  () => {
 
         const getTimeFormat = (objKey) => {
             const time = getTimeRemaining(endTime);
-            if (time.total <= 0) {objKey = '00';
+            if (time.total <= 0) {
+                objKey = '00';
                 return objKey
             }
             if (objKey < 10) {
@@ -69,6 +70,7 @@ window.addEventListener('DOMContentLoaded',  () => {
             }
             return objKey;
         };
+
         function updateClock() {
             const t = getTimeRemaining(endTime);
             hours.textContent = getTimeFormat(t.hours);
@@ -94,7 +96,7 @@ window.addEventListener('DOMContentLoaded',  () => {
 
     moreBtn.addEventListener('click', () => {
         overlay.style.display = 'block';
-        this.classList.add('more-splash');
+        moreBtn.classList.add('more-splash');
         document.body.style.overflow = 'hidden';
     });
     closeBtn.addEventListener('click', () => {
@@ -106,7 +108,89 @@ window.addEventListener('DOMContentLoaded',  () => {
         }
     })
 
+    //form
+    let message = {
+        loading: 'Loading',
+        success: 'Спасибо! Скоро мы с Вами свяжемся!',
+        failure: 'Что-то пошло не так'
+    }
+    let formMain = document.querySelector('.main-form'),
+        input = formMain.getElementsByTagName('input'),
+        statusMessage = document.createElement('div');
+
+
+    statusMessage.classList.add('status')
+
+    formMain.addEventListener('submit', function (event) {
+        event.preventDefault();
+        formMain.appendChild(statusMessage);
+
+        let request = new XMLHttpRequest();
+        request.open('POST', 'server.php');
+
+        request.setRequestHeader('Content-Type', 'aplication/json; charet=utf-8');
+
+        let formData = new FormData(formMain);
+
+        let obj = {};
+        formData.forEach((value, key) => {
+            obj[key] = value;
+        });
+        let json = JSON.stringify(obj);
+
+        request.send(json);
+
+        request.addEventListener('readystatechange', function (event) {
+            if (request.readyState < 4) {
+                statusMessage.innerHTML = message.loading;
+            } else if (request.readyState === 4 && request.status === 200) {
+                statusMessage.innerHTML = message.success;
+            } else {
+                statusMessage.innerHTML = message.failure;
+            }
+
+            for (let i = 0; i < input.length; i++) {
+                input[i].value = '';
+            }
+        });
+    });
+
+
+    let form = document.getElementById('form'),
+        inputFrom = form.getElementsByTagName('input');
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        form.appendChild(statusMessage);
+        statusMessage.style.color = '#fff';
+        
+        let request = new XMLHttpRequest();
+        request.open('POST', 'server.php');
+
+        request.setRequestHeader('Content-Type', 'aplication/json; charet=utf-8');
+
+        let formData = new FormData(formMain);
+
+        let obj = {};
+        formData.forEach((value, key) => {
+            obj[key] = value;
+        });
+        let json = JSON.stringify(obj);
+
+        request.send(json);
+        
+        request.addEventListener('readystatechange', function () {
+            if (request.readyState < 4) {
+                statusMessage.innerHTML = message.loading;
+            } else if (request.readyState === 4 && request.status === 200) {
+                statusMessage.innerHTML = message.success;
+            } else {
+                statusMessage.innerHTML = message.failure;
+            }
+            for (let i = 0; i < inputFrom.length; i++) {
+                inputFrom[i].value = '';
+            }
+        });
+    }) ;
+
 });
-
-
-
